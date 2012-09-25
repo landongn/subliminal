@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+define(
+
+	[
+		"rosy/views/View",
+		"\$"${1}
+	],
+
+	function (View, \$${2}){
+
+		"use strict";
+
+		return View.extend({
+
+			${3}
+
+			transitionIn : function () {
+
+			},
+
+			transitionOut : function () {
+
+			},
+
+			destroy : function () {
+
+			}
+
+		});
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>extendview</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
