@@ -4,6 +4,7 @@
 //## ${1}
 //##
 //######################
+${2}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>comment</tabTrigger>

@@ -13,7 +13,16 @@ define(
 
 		return View.extend({
 
+			init : function () {
+
+			},
+
+			load : function () {
+
+			},
+
 			${3}
+
 
 			transitionIn : function () {
 
@@ -32,7 +41,7 @@ define(
 });
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>extendview</tabTrigger>
+	<tabTrigger>rosyView</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>
